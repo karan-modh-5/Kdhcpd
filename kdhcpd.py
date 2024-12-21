@@ -34,7 +34,7 @@ def is_valid_subnet_mask(subnet_mask):
         return False
 
 # Argument parser setup for command-line inputs
-parser = argparse.ArgumentParser(description="grandstream zero configuration auto provisioning server")
+parser = argparse.ArgumentParser(description="Temporary DHCP server")
 parser.add_argument("-v", action="store_true", help="Print version info")
 parser.add_argument("-n", help="Subnet Mask")
 parser.add_argument("-g", help="Gateway IP Address")
